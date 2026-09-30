@@ -13,13 +13,13 @@
       sombra.innerHTML = `
         <style>
           :host { display: block; }
-          h2 { color: #1b7a3e; margin: 0 0 4px; }
-          .version { font-size: 12px; color: #888; }
-          form { background: #fff; border: 1px solid #dde3ea; border-radius: 6px; padding: 20px; margin-top: 16px; max-width: 420px; }
+          h2 { color: var(--upc-color-exito-oscuro, #1b7a3e); margin: 0 0 4px; }
+          .version { font-size: 12px; color: var(--upc-color-texto-tenue, #888); }
+          form { background: var(--upc-color-superficie, #fff); border: 1px solid var(--upc-color-borde, #dde3ea); border-radius: var(--upc-radio-2, 6px); padding: 20px; margin-top: 16px; max-width: 420px; }
           label { display: block; margin: 12px 0 4px; font-size: 14px; }
-          input { width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 4px; box-sizing: border-box; }
-          button { margin-top: 16px; background: #1b7a3e; color: #fff; border: 0; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
-          .ok { color: #1b7a3e; font-size: 14px; }
+          input { width: 100%; padding: 8px; border: 1px solid var(--upc-color-borde-input, #bbb); border-radius: var(--upc-radio-1, 4px); box-sizing: border-box; }
+          button { margin-top: 16px; background: var(--upc-color-exito-oscuro, #1b7a3e); color: var(--upc-color-sobre-primario, #fff); border: 0; padding: 8px 16px; border-radius: var(--upc-radio-1, 4px); cursor: pointer; }
+          .ok { color: var(--upc-color-exito-oscuro, #1b7a3e); font-size: 14px; }
         </style>
         <h2>Mi perfil</h2>
         <span class="version">mfe-perfil v${VERSION} · Web Component</span>
