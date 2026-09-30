@@ -41,11 +41,6 @@
         window.dispatchEvent(new CustomEvent('usuario:cambio', { detail: { nombre: datos.nombre } }));
       });
     }
-
-    disconnectedCallback() {
-      // El navegador llama a este método cuando el contenedor retira el elemento
-      console.log('[mfe-perfil] desmontado');
-    }
   }
 
   if (!customElements.get('mfe-perfil')) {
