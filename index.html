@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>mfe-perfil (modo independiente)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..700&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="http://localhost:8085/tokens.css">
   <style>
-    body { font-family: Arial, sans-serif; margin: 24px; background: #fafafa; }
+    body { font-family: var(--upc-fuente-base, 'Hanken Grotesk', system-ui, sans-serif); margin: 24px; background: var(--upc-color-fondo, #f4eedd); color: var(--upc-color-texto, #1c2b21); }
     /* Regla "agresiva" a propósito: ¿afecta al h2 dentro del Shadow DOM? */
     h2 { color: red; font-family: 'Times New Roman', serif; }
   </style>
